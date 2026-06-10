@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int n,i,sum=0;
+    printf("Enter the number- ");
+    scanf("%d", num);
+    for(i=1;i<=n;i++){
+       sum=sum+i;}
+    printf("sum of N natural no.s=%d",sum)
+    return 0;
+}
