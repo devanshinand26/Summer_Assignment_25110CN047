@@ -1,18 +1,9 @@
-#include <iostream>
-using namespace std;
-
+#include <stdio.h>
 int main() {
-    int n;
-    long long sum = 0;
-
-    cout << "Enter a number: ";
-    cin >> n;
-
-    for(int i = 1; i <= n; i++) {
-        sum += i;
-    }
-
-    cout << "Sum of first " << n << " natural numbers = " << sum;
-
+    int n,i,sum=0;
+    printf("Enter the number- ");
+    scanf("%d", num);
+    for(i=1;i<=n;i++){
+    
     return 0;
 }
