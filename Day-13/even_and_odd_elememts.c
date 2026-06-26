@@ -3,8 +3,7 @@
 int main()
 {
     int arr[100];
-    int n, i;
-    int even = 0, odd = 0;
+    int n, i,even = 0, odd = 0;
     printf("Enter the size of array: ");
     scanf("%d", &n);
     printf("Enter %d elements:\n", n);
