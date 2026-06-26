@@ -5,22 +5,21 @@ int main()
     int n, i;
     printf("Enter the size of array: ");
     scanf("%d", &n);
-    int arr[n];
+    int a[n];
     printf("Enter %d elements:\n", n);
     for(i = 0; i < n; i++)
-        scanf("%d", &arr[i]);
-    int largest = arr[0];
-    int smallest = arr[0];
+        scanf("%d", &a[i]);
+    int largest = a[0];
+    int smallest = a[0];
     for(i = 1; i < n; i++)
     {
-        if(arr[i] > largest)
-            largest = arr[i];
+        if(a[i] > largest)
+            largest = a[i];
 
-        if(arr[i] < smallest)
-            smallest = arr[i];
+        if(a[i] < smallest)
+            smallest = a[i];
     }
     printf("Largest = %d\n", largest);
     printf("Smallest = %d\n", smallest);
-
     return 0;
 }
