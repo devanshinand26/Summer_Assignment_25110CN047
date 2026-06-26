@@ -3,7 +3,7 @@
 int main()
 {
     int n, i, sum = 0;
-    float average;
+    float avg;
 
     printf("Enter the size of array: ");
     scanf("%d", &n);
@@ -17,10 +17,8 @@ int main()
         sum += arr[i];
     }
 
-    average = (float)sum / n;
-
+    avg = (float)sum / n;
     printf("Sum = %d\n", sum);
-    printf("Average = %.2f\n", average);
-
+    printf("Average = %.2f\n", avg);
     return 0;
 }
